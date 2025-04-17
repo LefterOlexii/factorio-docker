@@ -13,12 +13,16 @@ services:
       - "27015:27015/tcp"
     volumes:
       - /opt/factorio:/factorio
-      #    environment:
+    environment:
       #      - PUID=1000
       #      - PGID=1000
-      #      - UPDATE_MODS_ON_START=true
-      #      - USERNAME=FactorioUsername
-      #      - TOKEN=FactorioToken
+      - LOAD_LATEST_SAVE=true
+      - GENERATE_NEW_SAVE=true
+      - SAVE_NAME=111
+      - UPDATE_MODS_ON_START=true
+      - USERNAME=Inger_Pro
+      - TOKEN=ba4cce47d034c8b0e36b4cf9a2c5ec
+      - DLC_SPACE_AGE=false
       #      - PORT=34198
       #      - PRESET=deathworld
       #      - ADDR=::1

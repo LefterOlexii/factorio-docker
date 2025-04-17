@@ -2,7 +2,7 @@ version: "2"
 services:
   factorio:
     container_name: factorio
-    image: factoriotools/factorio:stable
+    image: factoriotools/factorio:stable-2.0.41
     restart: unless-stopped
     ports:
       - "34197:34197/udp"
@@ -10,7 +10,14 @@ services:
     volumes:
       - ./data:/factorio
     environment:
+      - LOAD_LATEST_SAVE=false
+      - GENERATE_NEW_SAVE=true
+      - SAVE_NAME=111
       - UPDATE_MODS_ON_START=true
+      - USERNAME=Inger_Pro
+      - TOKEN=ba4cce47d034c8b0e36b4cf9a2c5ec
+      - DLC_SPACE_AGE=false
+      
     
     # Uncomment to enable autoupdate via watchtower
     #labels:
