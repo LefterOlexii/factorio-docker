@@ -1,0 +1,49 @@
+   0.004 2025-07-29 15:40:06; Factorio 1.1.110 (build 62357, linux64, headless)
+   0.005 Operating system: Linux
+   0.007 Program arguments: "/opt/factorio/bin/x64/factorio" "--port" "34197" "--server-settings" "/factorio/config/server-settings.json" "--server-banlist" "/factorio/config/server-banlist.json" "--rcon-port" "27015" "--server-whitelist" "/factorio/config/server-whitelist.json" "--use-server-whitelist" "--server-adminlist" "/factorio/config/server-adminlist.json" "--rcon-password" <private> "--server-id" "/factorio/config/server-id.json" "--mod-directory" "/factorio/mods" "--start-server-load-latest" 
+   0.008 Config path: /opt/factorio/config/config.ini
+   0.009 Read data path: /opt/factorio/data
+   0.009 Write data path: /factorio [130759/487720MB]
+   0.010 Binaries path: /opt/factorio/bin
+   0.019 System info: [CPU: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz, 8 cores, RAM: 15884 MB]
+   0.019 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.019 Running in headless mode
+   0.040 Loading mod core 0.0.0 (data.lua)
+   0.073 Loading mod base 1.1.110 (data.lua)
+   0.283 Loading mod base 1.1.110 (data-updates.lua)
+   0.363 Checksum for core: 607699937
+   0.363 Checksum of base: 2464433227
+   0.536 Prototype list checksum: 3034860339
+   0.621 Info PlayerData.cpp:76: Local player-data.json available, timestamp 1753803606
+   0.622 Info PlayerData.cpp:83: Cloud player-data.json unavailable
+   0.630 Factorio initialised
+   0.644 Info ServerSynchronizer.cpp:29: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   0.644 Info ServerMultiplayerManager.cpp:814: updateTick(4294967295) changing state from(Ready) to(PreparedToHostGame)
+   0.645 Info ServerMultiplayerManager.cpp:814: updateTick(4294967295) changing state from(PreparedToHostGame) to(CreatingGame)
+   0.649 Loading map /factorio/saves/IR3_SAVE.zip: 745627 bytes.
+   1.199 Loading level.dat: 1195980 bytes.
+   1.211 Info Scenario.cpp:204: Map version 1.1.110-0
+   1.233 Loading script.dat: 1171 bytes.
+   1.287 Checksum for script /factorio/temp/currently-playing/control.lua: 3702463597
+   1.291 Info UDPSocket.cpp:33: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   1.292 Hosting game at IP ADDR:({0.0.0.0:34197})
+   1.292 Info HttpSharedState.cpp:58: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=6
+   1.802 Info AuthServerConnector.cpp:95: Obtained serverPadlock for serverHash (s8zDE6H1PgjbCutNQ2XfBQhh9KM07SHZ) from the auth server.
+   1.803 Info ServerMultiplayerManager.cpp:814: updateTick(0) changing state from(CreatingGame) to(InGame)
+   1.923 Info ServerRouter.cpp:664: Asking pingpong servers (pingpong1.factorio.com:34197, pingpong2.factorio.com:34197, pingpong3.factorio.com:34197, pingpong4.factorio.com:34197) for own address
+   1.924 Info UDPSocket.cpp:45: Opening socket for broadcast
+   1.924 Error InterruptibleStdioStream.cpp:61: Got EOF on stdin; closing
+   1.924 Info RemoteCommandProcessor.cpp:133: Starting RCON interface at IP ADDR:({0.0.0.0:27015})
+   1.925 Info CommandLineMultiplayer.cpp:297: Maximum segment size = 100; minimum segment size = 25; maximum-segment-size peer count = 10; minimum-segment-size peer count = 20
+   2.059 Warning ServerRouter.cpp:541: Received own address message reply with conflicting address (got IP ADDR:({188.163.100.224:51555}), expected IP ADDR:({188.163.100.224:51406}))
+   2.059 Warning ServerMultiplayerManager.cpp:662: Determining own address has failed. Best guess: IP ADDR:({188.163.100.224:51406})
+   2.075 Warning ServerRouter.cpp:541: Received own address message reply with conflicting address (got IP ADDR:({188.163.100.224:51894}), expected IP ADDR:({188.163.100.224:51406}))
+   2.076 Error ServerMultiplayerManager.cpp:751: Matching server connection failed: Error when creating server game: Missing token.
+   2.225 Warning ServerRouter.cpp:541: Received own address message reply with conflicting address (got IP ADDR:({188.163.100.224:51463}), expected IP ADDR:({188.163.100.224:51406}))
+   8.707 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({172.21.0.1:39059}))
+   8.707 Refusing connection for address (IP ADDR:({172.21.0.1:39059})), username (Inger_Pro). UserVerificationMissing
+   9.207 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({172.21.0.1:46090}))
+   9.207 Refusing connection for address (IP ADDR:({172.21.0.1:46090})), username (Inger_Pro). ModsMismatch
+ 140.774 Received SIGTERM, shutting down
+ 140.775 Quitting: signal.
+ 140.775 Info MainLoop.cpp:446: Saving map as /factorio/saves/IR3_SAVE.zip

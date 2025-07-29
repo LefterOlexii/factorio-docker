@@ -1,0 +1,79 @@
+   0.004 2025-07-29 15:42:34; Factorio 1.1.110 (build 62357, linux64, headless)
+   0.004 Operating system: Linux
+   0.005 Program arguments: "/opt/factorio/bin/x64/factorio" "--port" "34197" "--server-settings" "/factorio/config/server-settings.json" "--server-banlist" "/factorio/config/server-banlist.json" "--rcon-port" "27015" "--server-whitelist" "/factorio/config/server-whitelist.json" "--use-server-whitelist" "--server-adminlist" "/factorio/config/server-adminlist.json" "--rcon-password" <private> "--server-id" "/factorio/config/server-id.json" "--mod-directory" "/factorio/mods" "--start-server-load-latest" 
+   0.016 Config path: /opt/factorio/config/config.ini
+   0.018 Read data path: /opt/factorio/data
+   0.018 Write data path: /factorio [130572/487720MB]
+   0.018 Binaries path: /opt/factorio/bin
+   0.028 System info: [CPU: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz, 8 cores, RAM: 15884 MB]
+   0.028 Environment: DISPLAY=<unset> WAYLAND_DISPLAY=<unset> DESKTOP_SESSION=<unset> XDG_SESSION_DESKTOP=<unset> XDG_CURRENT_DESKTOP=<unset> __GL_FSAA_MODE=<unset> __GL_LOG_MAX_ANISO=<unset> __GL_SYNC_TO_VBLANK=<unset> __GL_SORT_FBCONFIGS=<unset> __GL_YIELD=<unset>
+   0.028 Running in headless mode
+   0.476 Loading mod settings DeadlockBlackRubberBelts 1.0.5 (settings.lua)
+   0.477 Loading mod settings IndustrialRevolution3LoadersStacking 1.0.13 (settings.lua)
+   0.479 Loading mod settings IndustrialRevolution3SpaceMining 1.0.2 (settings.lua)
+   0.480 Loading mod settings IndustrialRevolution3 3.1.30 (settings.lua)
+   0.482 Loading mod settings IndustrialRevolution3 3.1.30 (settings-updates.lua)
+   0.485 Loading mod core 0.0.0 (data.lua)
+   0.515 Loading mod base 1.1.110 (data.lua)
+   0.689 Loading mod DeadlockBlackRubberBelts 1.0.5 (data.lua)
+   0.702 Loading mod DeadlockLargerLamp 1.5.1 (data.lua)
+   0.719 Loading mod IndustrialRevolution3 3.1.30 (data.lua)
+   0.976 Loading mod base 1.1.110 (data-updates.lua)
+   1.001 Loading mod IndustrialRevolution3Airships 1.0.2 (data-updates.lua)
+   1.032 Loading mod IndustrialRevolution3LoadersStacking 1.0.13 (data-updates.lua)
+   1.061 Loading mod IndustrialRevolution3SpaceMining 1.0.2 (data-updates.lua)
+   1.086 Loading mod IndustrialRevolution3 3.1.30 (data-updates.lua)
+   1.213 Loading mod DeadlockLargerLamp 1.5.1 (data-final-fixes.lua)
+   1.244 Loading mod IndustrialRevolution3Airships 1.0.2 (data-final-fixes.lua)
+   1.274 Loading mod IndustrialRevolution3 3.1.30 (data-final-fixes.lua)
+   2.848 Checksum for core: 607699937
+   2.848 Checksum of base: 2464433227
+   2.848 Checksum of DeadlockBlackRubberBelts: 5571303
+   2.849 Checksum of DeadlockLargerLamp: 4210112940
+   2.849 Checksum of IndustrialRevolution3Airships: 3688479052
+   2.849 Checksum of IndustrialRevolution3Assets1: 0
+   2.850 Checksum of IndustrialRevolution3Assets2: 0
+   2.851 Checksum of IndustrialRevolution3Assets3: 0
+   2.851 Checksum of IndustrialRevolution3Assets4: 0
+   2.852 Checksum of IndustrialRevolution3LoadersStacking: 2360182529
+   2.853 Checksum of IndustrialRevolution3SpaceMining: 1707869072
+   2.854 Checksum of IndustrialRevolution3: 2217860320
+   3.368 Prototype list checksum: 3485719592
+   3.565 Info PlayerData.cpp:76: Local player-data.json available, timestamp 1753803606
+   3.566 Info PlayerData.cpp:83: Cloud player-data.json unavailable
+   3.572 Factorio initialised
+   3.582 Info ServerSynchronizer.cpp:29: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   3.583 Info ServerMultiplayerManager.cpp:814: updateTick(4294967295) changing state from(Ready) to(PreparedToHostGame)
+   3.583 Info ServerMultiplayerManager.cpp:814: updateTick(4294967295) changing state from(PreparedToHostGame) to(CreatingGame)
+   3.593 Loading map /factorio/saves/IR3_SAVE.zip: 745627 bytes.
+   5.570 Loading level.dat: 1195980 bytes.
+   5.587 Info Scenario.cpp:204: Map version 1.1.110-0
+   5.593 Info PrototypeMigrationList.cpp:194: Activating migration IndustrialRevolution3/IndustrialRevolution3_3.1.0.json
+   5.595 Info PrototypeMigrationList.cpp:194: Activating migration IndustrialRevolution3/IndustrialRevolution3_3.1.10.json
+   5.596 Info PrototypeMigrationList.cpp:194: Activating migration IndustrialRevolution3/IndustrialRevolution3_3.1.17.json
+   5.731 Loading script.dat: 1171 bytes.
+   5.799 Checksum for script /factorio/temp/currently-playing/control.lua: 3702463597
+   5.802 Checksum for script __DeadlockBlackRubberBelts__/control.lua: 2523689386
+   5.807 Checksum for script __DeadlockLargerLamp__/control.lua: 217305035
+   5.815 Checksum for script __IndustrialRevolution3Airships__/control.lua: 827188931
+   5.820 Checksum for script __IndustrialRevolution3LoadersStacking__/control.lua: 4262416324
+   5.878 Checksum for script __IndustrialRevolution3SpaceMining__/control.lua: 3329749900
+   5.943 Checksum for script __IndustrialRevolution3__/control.lua: 891613779
+   5.961 Applying migration: Industrial Revolution 3: IndustrialRevolution3_3.1.12.lua
+   5.962 Script @__IndustrialRevolution3__/migrations/IndustrialRevolution3_3.1.12.lua:6: IR3: 3.1.12 electroplating migration
+   5.963 Script @__IndustrialRevolution3__/code/functions/functions-data-log.lua:25: IR3: NOTICE: IR3 version change
+   6.485 Info UDPSocket.cpp:33: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   6.485 Hosting game at IP ADDR:({0.0.0.0:34197})
+   6.487 Info HttpSharedState.cpp:58: Downloading https://auth.factorio.com/generate-server-padlock-2?api_version=6
+   7.062 Info AuthServerConnector.cpp:95: Obtained serverPadlock for serverHash (OgB4d58KQTNV3NZLfXSKFONOpjwqChzz) from the auth server.
+   7.063 Info ServerMultiplayerManager.cpp:814: updateTick(0) changing state from(CreatingGame) to(InGame)
+   7.113 Info ServerRouter.cpp:664: Asking pingpong servers (pingpong1.factorio.com:34197, pingpong2.factorio.com:34197, pingpong3.factorio.com:34197, pingpong4.factorio.com:34197) for own address
+   7.115 Info UDPSocket.cpp:45: Opening socket for broadcast
+   7.117 Error InterruptibleStdioStream.cpp:61: Got EOF on stdin; closing
+   7.117 Info RemoteCommandProcessor.cpp:133: Starting RCON interface at IP ADDR:({0.0.0.0:27015})
+   7.118 Info CommandLineMultiplayer.cpp:297: Maximum segment size = 100; minimum segment size = 25; maximum-segment-size peer count = 10; minimum-segment-size peer count = 20
+   7.252 Warning ServerRouter.cpp:541: Received own address message reply with conflicting address (got IP ADDR:({188.163.100.224:51985}), expected IP ADDR:({188.163.100.224:52131}))
+   7.253 Warning ServerMultiplayerManager.cpp:662: Determining own address has failed. Best guess: IP ADDR:({188.163.100.224:52131})
+   7.269 Warning ServerRouter.cpp:541: Received own address message reply with conflicting address (got IP ADDR:({188.163.100.224:51824}), expected IP ADDR:({188.163.100.224:52131}))
+   7.270 Error ServerMultiplayerManager.cpp:751: Matching server connection failed: Error when creating server game: Missing token.
+   7.469 Warning ServerRouter.cpp:541: Received own address message reply with conflicting address (got IP ADDR:({188.163.100.224:51330}), expected IP ADDR:({188.163.100.224:52131}))
